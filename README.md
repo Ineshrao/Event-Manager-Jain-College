@@ -45,8 +45,8 @@ For Organizers:
 
 1. Download Student Details: As an organizer, you have exclusive access to the hidden webpage, generate.php, where you can effortlessly download all the details of the registered students in an Excel format. This feature streamlines your event coordination process, enabling you to manage participants with ease.
 2. Use the following credentials for organizer's log in:
-    Username: admin
-    Password: admin
+    - **Username**: admin
+    - **Password**: admin
 
 ## Contributing
 
