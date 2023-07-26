@@ -30,6 +30,7 @@ To install the Event Manager Website on your local machine, follow these steps:
 3. Move the cloned repository to the appropriate XAMPP directory. For example, in Windows, move it to `C:\xampp\htdocs\`.
 4. Start the XAMPP control panel and ensure the Apache and MySQL services are running.
 5. Import the database file into your SQL Server.
+6. To enable the mailing feature, add your Email-ID and Google App Password in the submit.php.
 
 ## Usage
 
@@ -43,6 +44,9 @@ To use the Event Manager Website on your local machine, follow these steps:
 For Organizers:
 
 1. Download Student Details: As an organizer, you have exclusive access to the hidden webpage, generate.php, where you can effortlessly download all the details of the registered students in an Excel format. This feature streamlines your event coordination process, enabling you to manage participants with ease.
+2. Use the following credentials for organizer's log in:
+    Username: admin
+    Password: admin
 
 ## Contributing
 
