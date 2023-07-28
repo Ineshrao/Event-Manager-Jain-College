@@ -67,5 +67,6 @@ The Event Manager Website is licensed under the GNU General Public License (GPL)
 
 ## Future Work
 
-1. Admin Dashboard with Statistical Information: Develop an intuitive admin dashboard for event organizers. Provide valuable statistical insights, attendance data, participant demographics, and feedback analytics.
-2. Database Structure Improvement: Optimize the database structure for efficiency, scalability, and better performance. Consider indexing, caching, and normalization to handle large volumes of data seamlessly.
+1. Develop an intuitive admin dashboard for event organizers. Provide valuable statistical insights, attendance data, participant demographics, and feedback analytics.
+2. Optimize the database structure for efficiency, scalability, and better performance. Consider indexing, caching, and normalization to handle large volumes of data seamlessly.
+3. Adding an "Admin Event Add" page to enable authorized organizers to directly add events to the website and implement a database to store all events securely.
