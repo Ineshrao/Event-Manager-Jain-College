@@ -615,9 +615,6 @@ button:hover {
     padding: 8.2rem 7rem 10rem;
   }
 }
-/*----------------------------------------
-1.4 Button Styling
-----------------------------------------*/
 .btn-ghost {
   font-weight: 700;
   font-size: 15px;
@@ -1189,9 +1186,6 @@ button:hover {
 .play-btn:hover img {
   opacity: 1;
 }
-/*----------------------------------------
-1.5 Title and Color
-----------------------------------------*/
 .section-heading {
   margin-bottom: 5rem;
 }
@@ -1970,9 +1964,6 @@ button:hover {
   margin: 0 auto;
   z-index: 6;
 }
-/*----------------------------------------
-1.6 Tooltip Styling
-----------------------------------------*/
 body > .eventalk-tooltip {
   font-size: 80%;
   position: absolute;
@@ -2019,9 +2010,6 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/*----------------------------------------
-1.7 Other Elements Style
-----------------------------------------*/
 @media only screen and (max-width: 479px) {
   .col-mb-12 {
     max-width: 100%;
@@ -2190,9 +2178,9 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   padding-left: 0;
 }
 #scrollUp {
-  background-color: rgba(76, 24, 100, 0.8);
+  background-color: #fad03b;
   bottom: 5px;
-  color: #ffffff;
+  color: #000000;
   display: block;
   height: 55px;
   position: fixed;
@@ -2201,7 +2189,7 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   text-decoration: none;
   width: 50px;
   z-index: 99999;
-  border: 2px solid #4c1864;
+  border: 2px solid #fad03b;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -2214,7 +2202,7 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   transition: all 1s ease-out;
 }
 #scrollUp i {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 5px;
 }
 #scrollUp p {
@@ -2224,57 +2212,10 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
 }
 #scrollUp:hover,
 #scrollUp:focus {
-  background-color: #4c1864;
+  background-color: #fad03b;
 }
 #scrollUp {
   animation: blinker 10s linear infinite;
-}
-.preloader {
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 9999999;
-  background: #4c1864;
-  overflow: visible;
-}
-.preloader .items {
-  width: 80px;
-  height: 100px;
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.preloader .items .item {
-  position: relative;
-  box-sizing: border-box;
-  float: left;
-  margin: 0 10px 10px 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-  background: #FFF;
-}
-.preloader .items .item:nth-child(4n+1) {
-  animation: wave 2s ease .0s infinite;
-}
-.preloader .items .item:nth-child(4n+2) {
-  animation: wave 2s ease .2s infinite;
-}
-.preloader .items .item:nth-child(4n+3) {
-  animation: wave 2s ease .4s infinite;
-}
-.preloader .items .item:nth-child(4n+4) {
-  animation: wave 2s ease .6s infinite;
-  margin-right: 0;
 }
 @keyframes wave {
   0% {
@@ -2427,9 +2368,6 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
 .dot-control .owl-controls .owl-dots .active span {
   background: #fad03b;
 }
-/*======================================================
-[02] Header Area Style
-=======================================================*/
 .header-area:after {
   clear: both;
   content: "";
@@ -2437,7 +2375,7 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
 }
 .header-area .stick {
   background-color: rgba(17, 17, 17, 0.9);
-  border-bottom: 2px solid #4c1864;
+  border-bottom: 2px solid #000000;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
@@ -3113,9 +3051,6 @@ span.menu-trigger i {
 .rt-dropdown-mega-custom {
   left: 5.7%!important;
 }
-/*======================================================
-[03] Slider Area Style
-=======================================================*/
 .slider-area {
   position: relative;
 }
@@ -3673,10 +3608,6 @@ span.menu-trigger i {
   -ms-animation: bounceInUp 2000ms ease-in-out;
   animation: bounceInUp 2000ms ease-in-out;
 }
-/*======================================================
-[11] Countdown Area Style
-=======================================================*/
-
 .countdown-layout2 {
   text-align: center;
   margin-bottom: 5px;
@@ -4658,9 +4589,6 @@ span.menu-trigger i {
   font-weight: 500;
   margin-bottom: 5px;
 }
-/*======================================================
-[19] Call To Action Area Style
-=======================================================*/
 .call-to-action-layout1 {
   text-align: center;
 }
@@ -4678,9 +4606,6 @@ span.menu-trigger i {
     width: 100%;
   }
 }
-/*======================================================
-[22] 404 Error Page Style
-=======================================================*/
 .error-page-layout1 {
   text-align: center;
 }
@@ -4714,9 +4639,6 @@ span.menu-trigger i {
     width: 100%;
   }
 }
-/*======================================================
-[24] Footer Area Style
-=======================================================*/
 .footer-box-layout {
   padding-left: 100px;
   padding-right: 100px;
@@ -4989,9 +4911,6 @@ span.menu-trigger i {
 .footer-layout2 .footer-bottom-area a:hover {
   color: #fad03b;
 }
-/*======================================================
-[25] Responsive Style
-=======================================================*/
 @media only screen and (min-width: 576px) {
   .nav-control-top {
     position: relative;

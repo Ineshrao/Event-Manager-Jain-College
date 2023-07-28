@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'YOUR_MAIL';
+    $mail->Username = 'YOUR_EMAIL';
     $mail->Password = 'YOUR_GOOGLE_APP_PASSWORD';
     $mail->Port = 465;
     $mail->SMTPSecure = 'ssl';
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             
             if ($conn->query($sql) === TRUE) {
                 
-            $mail->setFrom('YOUR_MAIL', 'Vismaya-2019');
+            $mail->setFrom('YOUR_EMAIL', 'Vismaya-2019');
             $mail->addAddress($email);
             $mail->Subject = ("Vismaya $event Registration");
             $mail->Body = "Hello $name, <br>Your registration for $event is Confirmed.<br>Team Name: $team.<br> Thank you, see you there!";
